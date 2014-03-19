@@ -14,7 +14,8 @@
   "dependencies": {
     "optimist": "~0.5.2",
     "colors": "~0.6.1",
-    "fluent-ffmpeg": "~1.5.2"
+    "fluent-ffmpeg": "~1.5.2",
+    "async": "~0.2.10"
   },
   "devDependencies": {
     "chai": "~1.6.1",
