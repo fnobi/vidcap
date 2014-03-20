@@ -5,9 +5,7 @@ koma video capture.
 
 ## install
 ```
-git clone git://github.com/fnobi/vidcap
-cd vidcap
-npm -g install .
+npm -g install vidcap
 ```
 
 ## usage
@@ -19,5 +17,11 @@ vidcap path/to/movie.mp4
 vidcap -i 5 -s 300x200 path/to/movie.mp4
 
 # check captures
-ls path/to/movie.mp4.vidcap
+ls movie.vidcap
+
+# convert movie to sprite
+vidcap path/to/movie.mp4 -f sprite
+
+# convert movie to gif animation
+vidcap path/to/movie.mp4 -f gif
 ```
