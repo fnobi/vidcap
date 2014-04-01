@@ -55,6 +55,6 @@ movie start offset time. (seconds)
 ### -f, --format
 output format. (images|sprite|gif)
 
-  - images => output directory "{:basename}.vidcap"
-  - sprite => output "{:basename}.jpg" as concated image
-  - gif => output "{:basename}.gif" as animation
+  - images => output directory ```{:basename}.vidcap```
+  - sprite => output ```{:basename}.jpg``` as concated image
+  - gif => output ```{:basename}.gif``` as animation
