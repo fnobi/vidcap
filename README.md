@@ -28,23 +28,33 @@ vidcap path/to/movie.mp4 -f gif
 
 ## options
 
-### --help
-show this help.                     [boolean]  [default: false]
 ###  -i, --interval
-capture interval.                   [string]  [default: 0.25]
+capture interval. (seconds)
+
 ### -s, --size
-capture size.                       [string]
+capture size. (ex. ```640x480```)
+
 ### -w, --width
-capture width.                      [string]
+capture width.
+
 ### -h, --height
-capture height.                     [string]
+capture height.
+
 ### -b, --basename
-output file basename.               [string]
+output file basename.
+
 ### -z, --zero-padding
-use zero-padding number.            [boolean]  [default: false]
+use zero-padding number. (01, 02, 03...)
+
 ### -d, --duration
-movie duration.                     [string]
+movie duration.  (seconds)
+
 ### --offset
-movie start offset time.            [string]  [default: 0]
+movie start offset time. (seconds)
+
 ### -f, --format
-output format. (images|sprite|gif)  [string]  [default: "images"]
+output format. (images|sprite|gif)
+
+  - images => output directory "{:basename}.vidcap"
+  - sprite => output "{:basename}.jpg" as concated image
+  - gif => output "{:basename}.gif" as animation
