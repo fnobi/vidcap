@@ -25,3 +25,26 @@ vidcap path/to/movie.mp4 -f sprite
 # convert movie to gif animation
 vidcap path/to/movie.mp4 -f gif
 ```
+
+## options
+
+### --help
+show this help.                     [boolean]  [default: false]
+###  -i, --interval
+capture interval.                   [string]  [default: 0.25]
+### -s, --size
+capture size.                       [string]
+### -w, --width
+capture width.                      [string]
+### -h, --height
+capture height.                     [string]
+### -b, --basename
+output file basename.               [string]
+### -z, --zero-padding
+use zero-padding number.            [boolean]  [default: false]
+### -d, --duration
+movie duration.                     [string]
+### --offset
+movie start offset time.            [string]  [default: 0]
+### -f, --format
+output format. (images|sprite|gif)  [string]  [default: "images"]
